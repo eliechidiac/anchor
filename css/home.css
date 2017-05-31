@@ -1,0 +1,63 @@
+#home-body{
+	background-image: url('../images/home.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#home-title{
+	color: #111947;
+	text-align: center;
+	background-color: white;
+	opacity: 0.7;
+	width: 200px;
+	padding: 20px;
+	font-size: 30px;
+	border-radius: 100px;
+	position: absolute;
+	right: 200px;
+	top: 150px;
+	cursor: default;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#home-title:hover{
+	opacity: 1;
+}
+
+#home-slider{
+	margin-left: -15px;
+	margin-right: -15px;
+	height: 100%;
+}
+
+#home-row{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.home-col{
+	cursor: default;
+	color: #111947;
+	background-color: white;
+	padding: 15px;
+	opacity: 0.7;
+	height: 166px;
+	text-align: center;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.home-col:hover{
+	opacity: 1;
+}
+
+.home-col.middle{
+	border-left: 1px solid #111947;
+	border-right: 1px solid #111947;
+}

@@ -1,0 +1,111 @@
+#book-body{
+	background-color: #e9eaed;
+}
+
+#book-container{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.book-title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.book-rooms{
+	position: relative;
+	height: 731px;
+	margin-top: 20px;
+	padding: 15px;
+	padding-bottom: 0;
+	border: 1px solid #111947;
+	background-color: white;
+}
+
+.book-rooms-title{
+	border: 1px solid #111947;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	height: 305px;
+	padding: 20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.book-rooms-info{
+	padding-top: 15px;
+}
+
+.book-rooms-button{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	margin-top: 20px;
+    background: #111947;
+    color: white;
+}
+
+.book-rooms-button:hover{
+	cursor: pointer;
+}
+
+.book-rooms-button .btn:hover{
+	color: white !important;
+}
+
+.book-rooms-title.single{
+	background-image: url('../images/rooms/single-room.jpg');
+}
+
+.book-rooms-title.double{
+	background-image: url('../images/rooms/double-room.jpg');
+}
+
+.book-rooms-title.junior{
+	background-image: url('../images/rooms/junior-suite.jpg');
+}
+
+.book-rooms-title.family{
+	background-image: url('../images/rooms/family-suite.jpg');
+}
+
+.book-rooms-title.grand{
+	background-image: url('../images/rooms/grand-suite.jpg');
+}
+
+#bookPopup-btn{
+	background-color: #111947;
+	color: white;
+	border: 1px solid #111947;
+}
+
+#bookPopup-btn:focus{
+	outline: none;
+}
+
+.bookPopup-labels{
+	padding-top: 6px;
+}
+
+.bookPopup-rows{
+	margin-top: 15px;
+}
+
+#bookPopup .form-control:focus{
+	border-color: #111947;
+}
+
+.bookPopup-error{
+	display: none;
+	padding: 15px;
+	border-radius: 12px;
+	margin-bottom: 15px;
+}
+
+.bookPopup-textarea{
+	resize: vertical;
+}

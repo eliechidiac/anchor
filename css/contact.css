@@ -1,0 +1,68 @@
+#contact-body{
+	background-image: url('../images/contact.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.contact-container{
+	position: absolute;
+	background-color: white;
+	font-weight: bold;
+	border-radius: 19px;
+	font-size: 20px;
+	padding: 40px;
+}
+
+.contact-phone{
+	top: 100px;
+	left: 200px;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.contact-phone:hover{
+	opacity: 1;
+}
+
+.contact-phone:hover ~ .contact-number{
+	opacity: 1;
+}
+
+.contact-number{
+	opacity: 0;
+	top: 350px;
+	left: 300px;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.contact-email{
+	top: 350px;
+	right: 300px;
+	opacity: 0.7;
+	cursor: pointer;
+	display: block;
+	color: rgba(0, 0, 0, 0.7);
+	text-decoration: none;
+}
+
+.contact-email:hover{
+	color: rgba(0, 0, 0, 1);
+	text-decoration: none;
+	opacity: 1;
+}
+
+.contact-email:hover ~ .contact-address{
+	opacity: 1;
+}
+
+.contact-address{
+	opacity: 0;
+	top: 100px;
+	right: 200px;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}

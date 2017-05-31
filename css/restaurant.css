@@ -1,0 +1,43 @@
+#restaurant-body{
+	background-image: url('../images/restaurant.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#restaurant-container{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	opacity: 0.9;
+}
+
+#restaurant-menu{
+	background-color: white;
+	border-radius: 3px;
+	padding: 30px 100px;
+}
+
+#restaurant-title{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#menu-content{
+	margin-top: 20px;
+}
+
+.menu-type{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.menu-element{
+	margin-top: 10px;
+}
+
+.menu-price{
+	text-align: right;
+}

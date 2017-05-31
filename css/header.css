@@ -1,0 +1,29 @@
+body{
+	font-family: cursive;
+}
+
+.navigation-bar-logo img{
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.navigation-bar{
+    width: 100%;
+	background-color: white;
+    overflow: hidden;
+    margin: 0px;
+    border-bottom: 0;
+}
+
+.navigation-bar-links{
+	cursor: pointer;
+	color: black;
+	text-align: center;
+	padding: 15px 15px 12px 15px;
+}
+
+.navigation-bar-links.selected, .navigation-bar-links:hover{
+	color: #111947;
+	border-bottom: 3px solid #111947;
+}

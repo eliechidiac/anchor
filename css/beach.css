@@ -1,0 +1,51 @@
+#beach-body{
+	background-image: url('../images/beach.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.beach-container{
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 1px 1px white;
+	cursor: default;
+}
+
+#beach-container{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.beach-row{
+	margin-top: 50px;
+}
+
+.beach-container.image1{
+	background-image: url('../images/beach/image1.jpg');
+}
+
+.beach-container.image2{
+	background-image: url('../images/beach/image2.jpg');
+}
+
+.beach-container.image3{
+	background-image: url('../images/beach/image3.jpg');
+}
+
+.beach-container.image4{
+	background-image: url('../images/beach/image4.jpg');
+}
+
+.beach-container.image5{
+	background-image: url('../images/beach/image5.jpg');
+}
+
+.beach-container.image6{
+	background-image: url('../images/beach/image6.jpg');
+}

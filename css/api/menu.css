@@ -1,0 +1,8 @@
+.form-label{
+	display: inline-block;
+	width: 100px;
+}
+
+textarea{
+	resize: vertical;
+}
